@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS EMPLEADOS(
     nombre VARCHAR(30),
     apellidos VARCHAR(30),
     clave_depto INT,
-    FOREIGN KEY (clave_depto) REFERENCES departamento(clave_depto)
+    FOREIGN KEY (clave_depto) REFERENCES DEPARTAMENTOS(clave_depto)
 );
 
 INSERT INTO DEPARTAMENTOS (nombre, presupuesto) VALUES
