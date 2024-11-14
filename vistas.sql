@@ -1,3 +1,4 @@
+USE personal;
 -- a
 CREATE VIEW Personal AS
 SELECT * FROM EMPLEADOS 
